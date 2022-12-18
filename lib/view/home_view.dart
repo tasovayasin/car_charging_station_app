@@ -153,7 +153,7 @@ class HomeView extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(70, 18, 16, 23),
+            padding: const EdgeInsets.fromLTRB(70, 11, 16, 23),
             child: SvgPicture.asset(
               "assets/car.svg",
               color: Colors.white,
@@ -390,7 +390,7 @@ class Header extends StatelessWidget {
             ],
           ),
         ),
-        const SizedBox(width: 120),
+        const SizedBox(width: 110),
         Column(
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
