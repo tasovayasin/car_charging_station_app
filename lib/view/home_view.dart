@@ -206,7 +206,7 @@ class QrContainer extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(103, 15, 19, 23),
+            padding: const EdgeInsets.fromLTRB(103, 10, 19, 23),
             child: SvgPicture.asset("assets/qr.svg"),
           ),
         ],
